@@ -1,12 +1,13 @@
 {
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack --config webpack-dist.config.js -p"
+    "build": "cross-env NODE_ENV=production webpack --config webpack-dist.config.js -p"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "chrome-finder": "^1.0.7",
     "compass-mixins": "^0.12.10",
+    "cross-env": "^7.0.3",
     "css-loader": "^3.5.3",
     "end-webpack-plugin": "^4.0.0",
     "mini-css-extract-plugin": "^0.9.0",
