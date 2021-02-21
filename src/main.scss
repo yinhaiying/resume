@@ -184,12 +184,14 @@ h3 {
     font-size: 16px;
     text-align: right;
     padding-right: 5px;
-
+    @media screen and (max-width: 720px) {
+      text-align: center;
+    }
     ul {
       margin: 8px 0 4px;
       @media screen and (max-width: 720px) {
         text-align: center;
-        margin: 16px 0 0;
+        margin: 0;
       }
 
       & > li {
@@ -214,7 +216,7 @@ h3 {
 
           .contact-link {
             @media screen and (max-width: 720px) {
-              display: none;
+              // display: none;
             }
           }
 
