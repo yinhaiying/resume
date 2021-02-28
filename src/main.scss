@@ -449,3 +449,34 @@ h3 {
     height: 100%;
   }
 }
+
+.experience-content {
+  margin-top: 20px;
+  h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  .experience-item {
+    h3 {
+      color: #333;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+    .desc {
+      p,
+      li {
+        margin-bottom: 12px;
+        &.summary {
+          min-height: 48px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.highlight {
+  color: #00b38a;
+  font-weight: bold;
+}
